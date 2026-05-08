@@ -2,7 +2,7 @@ import streamlit as st
 from utils.parser import read_pdf, read_docx
 from utils.summarizer import summarize_document
 
-st.title("📄 Document Summarizer Agent")
+st.title("Document Summarizer Agent")
 
 uploaded_file = st.file_uploader("Upload PDF or Word Document", type=["pdf", "docx"])
 
